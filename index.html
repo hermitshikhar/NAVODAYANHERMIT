@@ -1,54 +1,105 @@
-<style>
-    /* Navigation styling */
-    nav {
-        background: #333;
-        padding: 10px;
-        margin-bottom: 20px;
-        border-radius: 5px;
-    }
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Secure Site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    nav a {
-        color: white;
-        margin: 0 10px;
-        text-decoration: none;
-        font-weight: bold;
-    }
+    <style>
+        /* Navigation styling */
+        nav {
+            background: #333;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        nav a:hover {
+            color: #4CAF50;
+            text-decoration: underline;
+        }
+        
+        /* Contact section styling */
+        .contact-info {
+            background: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #4CAF50;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .contact-email {
+            color: #0066cc;
+            font-weight: bold;
+            background: #e7f3ff;
+            padding: 5px 10px;
+            border-radius: 3px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        
+        /* Basic page styling */
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        header, footer {
+            text-align: center;
+            margin: 40px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- ADD NAVIGATION HERE -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
     
-    nav a:hover {
-        color: #4CAF50;
-        text-decoration: underline;
-    }
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>This is my secure GitHub Pages site</p>
+    </header>
     
-    /* Contact section styling */
-    .contact-info {
-        background: #f8f9fa;
-        padding: 15px;
-        border-left: 4px solid #4CAF50;
-        margin: 20px 0;
-        border-radius: 5px;
-    }
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Add your information here...</p>
+        </section>
+        
+        <section id="projects">
+            <h2>My Projects</h2>
+            <p>Showcase your work here...</p>
+        </section>
+        
+        <!-- ADD CONTACT SECTION HERE -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p>Feel free to reach out:</p>
+                <div class="contact-email">
+                    hello [at] example [dot] com
+                </div>
+                <p><small>Email protected from spam bots</small></p>
+            </div>
+        </section>
+    </main>
     
-    .contact-email {
-        color: #0066cc;
-        font-weight: bold;
-        background: #e7f3ff;
-        padding: 5px 10px;
-        border-radius: 3px;
-        display: inline-block;
-        margin-top: 10px;
-    }
-    
-    /* Basic page styling */
-    body {
-        font-family: Arial, sans-serif;
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-        line-height: 1.6;
-    }
-    
-    header, footer {
-        text-align: center;
-        margin: 40px 0;
-    }
-</style>
+    <footer>
+        <p>© 2024 My Website | Hosted on GitHub Pages</p>
+    </footer>
+</body>
+</html>
